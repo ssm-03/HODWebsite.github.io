@@ -4,6 +4,7 @@
 body {
     color: #666666;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
     background: black;
 }
 
@@ -354,12 +355,13 @@ a:focus {
 
 .header .typed-text {
     display: none;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
 }
 
 .header .typed-cursor {
     font-size: 25px;
     font-weight: 300;
+    font-family: Inter;
     color: #222222;
 }
 
@@ -438,7 +440,7 @@ a:focus {
 /**********************************/
 .about {
     padding: 60px 30px;
-    background: #ffffff;
+    background: white;
     border-bottom: 30px solid black;
 }
 
@@ -483,7 +485,7 @@ a:focus {
     height: 5px;
     border: 1px solid #FF6F61;
     border-radius: 0;
-    background: #ffffff;
+    background: #F6D155;
 }
 
 .about .progress .progress-bar {
@@ -493,9 +495,10 @@ a:focus {
     transition: 1s;
 }
 
-.about p{
+.about h5{
     font-family: Inter;
     font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -523,14 +526,19 @@ a:focus {
 
 .service .srv-col h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: bolder;
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
 
-.service .srv-col p{
-    font-family: 'Inter', sans-serif;
+.service .srv-col h5{
+    font-family: Inter;
     font-size: 17px;
+    font-weight: bolder;
+}
+
+.service .srv-col ul{
+    display: inline-block;
 }
 
 .service .exp-col h4 {
@@ -540,15 +548,19 @@ a:focus {
     margin-bottom: 5px;
 }
 
+.experience{
+    background-color: #F6D155;
+}
+
 .experience .exp-col h5 {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .experience .exp-col p {
-    margin: 0;
-    display: inline;
+    font-family: Inter;
+    font-size: 20px;
 }
 
 
@@ -556,14 +568,20 @@ a:focus {
 /********** Portfolio CSS *********/
 /**********************************/
 .portfolio{
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px solid white;
 }
 
 .portfolio .content-inner{
-    background-color: white;
+    background-color: #ffffff   ;
     position: relative;
-    padding: 40px 100px 3000px 40px;
+    padding: 40px 100px 3500px 40px;
+}
+
+.portfolio li{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bolder;
 }
 /**********************************/
 /*********** Review CSS ***********/
@@ -575,7 +593,7 @@ a:focus {
 .contact {
     position: relative;
     padding: 60px 30px 30px 30px;
-    background: #ffffff;
+    background: white;
 }
 
 .contact .contact-info {
@@ -585,8 +603,9 @@ a:focus {
 }
 
 .contact .contact-info p {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Inter;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
@@ -598,6 +617,7 @@ a:focus {
 
 .contact .contact-info p a {
     color: #666666;
+    font-family: Inter;
 }
 
 .contact .contact-info p a:hover {
