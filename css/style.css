@@ -3,14 +3,13 @@
 /**********************************/
 body {
     color: #666666;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-family: Gilroy;
     background: black;
 }
 
 a {
     color: #F6D155;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
     transition: all .3s;
 }
 
@@ -19,7 +18,7 @@ a:active,
 a:focus {
     color: #FF6F61;
     outline: none;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
     text-decoration: none;
 }
 
@@ -63,26 +62,27 @@ a:focus {
 .navbar {
     padding: 15px;
     background: #F6D155 !important;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
     border-radius: 5px;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
     width: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
     border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
 .navbar-expand-md .navbar-nav .nav-item:first-child{
     border-top: none;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
     color: black;
     padding: 5px 15px 7px 15px;
     transition: all .3s;
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy;
+    font-size: 18px;
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
@@ -94,12 +94,12 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
+    color: #18A558;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
 .navbar-expand-md .navbar-nav .nav-link.active i{
-    color: #FF6F61;
+    color: #18A558;
 }
 
 
@@ -209,18 +209,18 @@ a:focus {
         bottom: 0;
         padding: 15px;
         font-size: 0;
-        font-family: 'Inter', sans-serif;
+        font-family: Gilroy;
         text-align: center;
         background: #F6D155;
     }
     
     .sidebar .sidebar-footer a {
         display: inline-block;
-        width: 40px;
-        font-family: 'Inter', sans-serif;
-        height: 40px;
-        padding: 5px 0;
-        margin: 0 15px 15px 0;
+        width: 38px;
+        font-family: Gilroy;
+        height: 38px;
+        padding: 5px;
+        margin: 15px;
         text-align: center;
         font-size: 18px;
         color: #222222;
@@ -232,8 +232,8 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #FF6F61;
-        background: #ffffff;
+        color: white;
+        background: rgb(54, 54, 216);
     }
     
     .sidebar:hover .sidebar-footer {
@@ -355,13 +355,12 @@ a:focus {
 
 .header .typed-text {
     display: none;
-    font-family: Inter;
+    font-family: Gilroy;
 }
 
 .header .typed-cursor {
     font-size: 25px;
     font-weight: 300;
-    font-family: Inter;
     color: #222222;
 }
 
@@ -440,7 +439,7 @@ a:focus {
 /**********************************/
 .about {
     padding: 60px 30px;
-    background: white;
+    background: #ffffff;
     border-bottom: 30px solid black;
 }
 
@@ -485,7 +484,7 @@ a:focus {
     height: 5px;
     border: 1px solid #FF6F61;
     border-radius: 0;
-    background: #F6D155;
+    background: #ffffff;
 }
 
 .about .progress .progress-bar {
@@ -495,10 +494,9 @@ a:focus {
     transition: 1s;
 }
 
-.about h5{
-    font-family: Inter;
+.about p{
+    font-family: Gilroy;
     font-size: 20px;
-    font-weight: bold;
 }
 
 
@@ -526,19 +524,14 @@ a:focus {
 
 .service .srv-col h3 {
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
 
-.service .srv-col h5{
-    font-family: Inter;
-    font-size: 17px;
-    font-weight: bolder;
-}
-
-.service .srv-col ul{
-    display: inline-block;
+.service .srv-col p{
+    font-family: Gilroy;
+    font-size: 20px;
 }
 
 .service .exp-col h4 {
@@ -548,19 +541,15 @@ a:focus {
     margin-bottom: 5px;
 }
 
-.experience{
-    background-color: #F6D155;
-}
-
 .experience .exp-col h5 {
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .experience .exp-col p {
-    font-family: Inter;
-    font-size: 20px;
+    margin: 0;
+    display: inline;
 }
 
 
@@ -568,20 +557,19 @@ a:focus {
 /********** Portfolio CSS *********/
 /**********************************/
 .portfolio{
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 10px solid white;
 }
 
 .portfolio .content-inner{
-    background-color: #ffffff   ;
+    background-color: white;
     position: relative;
-    padding: 40px 100px 3500px 40px;
+    padding: 40px 100px 4000px 40px;
 }
 
-.portfolio li{
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: bolder;
+.portfolio .content-inner li{
+    font-family: Gilroy;
+    font-size: 20px;
 }
 /**********************************/
 /*********** Review CSS ***********/
@@ -593,7 +581,7 @@ a:focus {
 .contact {
     position: relative;
     padding: 60px 30px 30px 30px;
-    background: white;
+    background: #ffffff;
 }
 
 .contact .contact-info {
@@ -603,9 +591,8 @@ a:focus {
 }
 
 .contact .contact-info p {
-    font-size: 17px;
-    font-weight: bold;
-    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
@@ -617,7 +604,6 @@ a:focus {
 
 .contact .contact-info p a {
     color: #666666;
-    font-family: Inter;
 }
 
 .contact .contact-info p a:hover {
@@ -646,8 +632,8 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #FF6F61;
-    background: #222222;
+    color: white;
+    background: rgb(54, 54, 216);
 }
 
 .contact .form {
